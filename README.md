@@ -17,22 +17,6 @@ bs58: Provides base58 encoding and decoding for Solana addresses.
 dotenv: Manages environment variables for secure configuration.
 axios: Makes HTTP requests to fetch metadata from IPFS gateways.
 
-Project Structure
-pump-mint-monitor/
-├── src/
-│   ├── config.ts          # Configuration settings and constants
-│   ├── client.ts          # Client setup and subscription logic
-│   ├── dataHandler.ts     # Stream data processing and formatting
-│   ├── utils.ts           # Utility functions (e.g., signature conversion)
-│   └── main.ts            # Entry point of the application
-├── data/
-│   ├── pump-fun.json      # IDL for the Pump program (optional)
-│   ├── token.json         # Token metadata (optional)
-│   └── tokens1.json       # Transaction logs or token data
-├── .env                   # Environment variables (ENDPOINT, TOKEN)
-├── package.json           # Project dependencies and scripts
-└── node_modules/          # Installed dependencies
-
 Setup Instructions
 
 Clone the Repository:
